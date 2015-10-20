@@ -1,2 +1,3 @@
-# Lorna Learns
-Some practice projects, mainly with Raspberry Pi and Python
+# Push Button Photo
+
+A practice project  
