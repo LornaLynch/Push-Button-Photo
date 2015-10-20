@@ -18,8 +18,9 @@ twitter = Twython(
     access_token_secret
 )
 
-#When you push a button connected to the GPIO pins, three LEDs flash as a countdown.
-#A photo is taken via the camera board, and is posted to Twitter via Twython. 
+# When you push a button connected to the GPIO pins, three LEDs flash as a countdown.
+# A photo is taken via the camera board, and is posted to Twitter via Twython. 
+# Based on the Raspberry Pi learning resource Tweeting Babbage 
 
 def main():
     button = Button(5)
