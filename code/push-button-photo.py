@@ -18,6 +18,7 @@ twitter = Twython(
     access_token_secret
 )
 
+#The numbers in brackets, below, refer to the GPIO pin to which the LEDs and button are connected
 def main():
     button = Button(5)
 
